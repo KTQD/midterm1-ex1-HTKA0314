@@ -1,5 +1,5 @@
 class MP3 extends Item {
-    private String duration;
+    private final String duration;
 
     // Phương thức khởi tạo với đầy đủ thuộc tính
     public MP3(String name, String description, String ID, float price, String duration) {
